@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Belajar coding</title>
+</head>
+<style>
+    * { 
+        margin: 0px;
+        padding: 0px;
+    }
+    .container {
+        background-color: bisque;
+    }
+
+    .nav {
+        padding: 10px;
+    }
+
+    .nav .judul {
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        padding: 5px;
+        margin-top: 5px;
+        border-radius: 5px;
+        color: white;
+    }
+    .nav a {
+        text-decoration: none;
+        color: rgb(8, 8, 8);
+        padding: 3px;
+        border-radius: 25px;
+    }
+
+    .nav a:hover {
+        background-color: white;
+    }
+
+
+    .hero {
+        height: 500px;
+        background-image: url(poster.jpg);
+        background-size: cover;
+        background-position: 0 -250px;
+    }
+
+    .conten{
+        margin: 10px auto;
+        padding-left: 10px;
+        margin-bottom: 20px;
+    }
+
+    .isi{
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: capitalize;
+
+    }
+
+    .conten p{
+
+        padding: 5px;
+    }
+
+    .conten p span a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .conten a:hover{
+        color: salmon;
+        background-color: aliceblue;
+    }
+
+    .artikel {
+        line-height: 25px;
+    }
+
+    .artikel .pertama{
+        /*background-color: aqua;*/
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .artikel .kedua{
+        /*background-color: blueviolet;*/
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .artikel .ketiga{
+        /*background-color: brown;*/
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .footer{
+        height: 50px;
+        background-color: black;
+    }
+
+    .footer p{
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        line-height: 50px;
+        text-transform: capitalize;
+    }
+    .footer a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .footer a:hover{
+        color: salmon;
+        background-color: white;
+    }
+
+</style>
+<body>
+    
+    <div class="container">
+        <div class="nav">
+            <div class="judul">my website</div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICE</a></li>
+                <li><a href="#">PROFILE</a></li>
+            </ul>
+        </div>
+        <div class="hero"></div>
+        <div class="conten">
+            <h1 class="isi">penulis</h1>
+            <p>o8 agustus 2022 <span><a href="">iswandy</a></span> pengarang</p>
+        </div>
+        <div class="artikel">
+            <p class="pertama">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Amet unde nisi et quibusdam ratione impedit reprehenderit 
+                sunt minima, eum, eaque, neque eos vero! Recusandae explicabo 
+                modi omnis ut rem, non cum quas neque beatae quia inventore 
+                impedit id! Nam facilis quam suscipit mollitia eaque expedita dolores,
+                minima perspiciatis laudantium accusantium.</p>
+
+            <p class="kedua">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita corporis 
+                excepturi animi itaque consequatur fugiat ipsum veritatis.
+                At provident in nisi amet mollitia, cum voluptatem ut laboriosam cupiditate,
+                aspernatur magni. Asperiores voluptatem pariatur a neque ducimus.
+                Esse nam ad ducimus voluptate pariatur, quod, ullam reprehenderit 
+                voluptates nesciunt explicabo, optio libero.</p> 
+            
+            <p class="ketiga">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita corporis 
+                excepturi animi itaque consequatur fugiat ipsum veritatis.
+                At provident in nisi amet mollitia, cum voluptatem ut laboriosam cupiditate,
+                aspernatur magni. Asperiores voluptatem pariatur a neque ducimus.
+                Esse nam ad ducimus voluptate pariatur, quod, ullam reprehenderit 
+                voluptates nesciunt explicabo, optio libero</p>    
+        </div>
+        <div class="footer">
+            <p>copyright 2022 by <span><a href="">iswandy</a></span></p>
+        </div>
+    </div>
+</body>
+</html>
